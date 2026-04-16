@@ -1,4 +1,195 @@
+h3 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    margin-bottom: 0.5em;
+}
+
+p {
+    text-indent: 2.2em;
+    margin-bottom: 1.1em;
+}
+body.stars-bg .main-content h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: 'Rock Salt', 'Segoe UI', Arial, cursive, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 14px #000, 0 2px 0 #333;
+}
+body.mfin-bg .main-content h1 {
+    font-family: 'Metal Mania', Impact, fantasy, cursive;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 4px 4px 14px #000, 0 2px 0 #333;
+    margin-bottom: 0.5em;
+}
+.favorite-parks {
+    display: table;
+    margin: 0 auto 1.5em auto;
+    padding-left: 0;
+    text-align: left;
+    font-size: 1.18em;
+    counter-reset: park-num;
+}
+.favorite-parks li {
+    list-style: none;
+    position: relative;
+    padding-left: 2.2em;
+    margin-bottom: 0.5em;
+}
+.favorite-parks li:before {
+    counter-increment: park-num;
+    content: counter(park-num) ". ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #ffd700;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 8px #000;
+}
+.favorite-parks-box {
+     display: table;
+     margin: 1.5em auto 2em auto;
+     padding: 1.2em 2.2em;
+     background: rgba(0,0,0,0.55);
+     border: 6px solid #ffd700;
+     border-radius: 18px;
+     box-shadow: 0 6px 24px rgba(0,0,0,0.25);
+}
+body.flowers-bg .main-content h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 14px #000, 0 2px 0 #333;
+}
+
+body.stars-bg {
+    background-image: url('Pics/stars.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 12px #000, 0 2px 0 #333;
+}
+
+body.stars-bg h1, body.stars-bg h2, body.stars-bg h3, body.stars-bg p, body.stars-bg nav, body.stars-bg a {
+    color: #fff !important;
+    text-shadow: 3px 3px 12px #000, 0 2px 0 #333;
+    font-weight: 700;
+}
+
+body.stars-bg .main-content {
+    background: rgba(0,0,0,0.60);
+    border-radius: 18px;
+    padding: 32px 28px 28px 28px;
+}
+
+
+body.mfin-bg {
+    background-image: url('Pics/MFinSlash.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 3px 12px #000, 0 2px 0 #333;
+}
+
+body.mfin-bg h1, body.mfin-bg h2, body.mfin-bg h3, body.mfin-bg p, body.mfin-bg nav, body.mfin-bg a {
+    color: #fff !important;
+    text-shadow: 3px 3px 12px #000, 0 2px 0 #333;
+    font-weight: 700;
+}
+
+body.mfin-bg .main-content, body.mfin-bg .music-content {
+    background: rgba(0,0,0,0.60);
+    border-radius: 18px;
+    padding: 32px 28px 28px 28px;
+}
 .golden-img {
     max-width: 50%;
     height: auto;
+}
+
+
+body.flowers-bg {
+    background-image: url('Pics/flowers.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-shadow: 2px 2px 6px #000, 0 1px 0 #333;
+}
+
+body.flowers-bg .main-content {
+    max-width: 900px;
+    margin: 48px auto 36px auto;
+    padding: 40px 36px 36px 36px;
+    background: rgba(0,0,0,0.60);
+    border-radius: 22px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.30);
+    font-size: 1.18em;
+    line-height: 1.7;
+    word-break: break-word;
+}
+
+h1, h2, h3, p, nav, a {
+    color: #fff !important;
+    text-shadow: 2px 2px 8px #000, 0 1px 0 #333;
+}
+
+nav a {
+    font-weight: bold;
+    background: rgba(0,0,0,0.4);
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 0 4px;
+    transition: background 0.2s;
+}
+nav a:hover {
+    background: rgba(255,255,255,0.3);
+    color: #222 !important;
+}
+
+.image-gallery {
+    text-align: center;
+}
+.image-gallery img {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    max-width: 900px;
+    width: 100%;
+    margin: 40px auto 30px auto;
+    padding: 32px 28px 28px 28px;
+    background: rgba(0,0,0,0.55);
+    border-radius: 18px;
+    box-shadow: 0 6px 32px rgba(0,0,0,0.25);
+    font-size: 1.15em;
+    line-height: 1.7;
+    word-break: break-word;
+}
+}
 }

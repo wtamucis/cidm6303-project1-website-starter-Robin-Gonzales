@@ -5,15 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Wild</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Rock Salt for rugged effect -->
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
-<body>
-<h2><i>The Southwest and Beyond</i></h2>
-<p>Hiking has become such a huge part of my life, especially living in this part of the country. I’ve spent a lot of time exploring the rugged beauty of Texas State Parks, but I always love crossing borders to see what our neighbors have to offer. Whether it’s the high-altitude trails in Colorado, the red rocks of Arizona, or the hauntingly beautiful landscapes of New Mexico, every state has its own unique energy. There’s something special about getting away from the city and realizing how much diverse wilderness we actually have right in our backyard.</P>
-<h2><i>The Ultimate Trail Bucket List</i></h2>
-<P>While I’ve seen some incredible places, my hiking bucket list is still pretty long. I’m dying to get up to Wyoming and the Dakotas to experience that wide-open, northern frontier feel. I also want to head in the opposite direction and hit the East Coast mountains—the Appalachians have a completely different, lush vibe compared to the dry heat of the Southwest. For me, the goal is to see as many different types of terrain as possible; every new trail feels like a fresh chapter in a much bigger story.</P>
-<h2><i>Good for the Body and the Soul</i></h2>
-<p>The best thing about hiking is that it’s just as good for your head as it is for your legs. It’s some of the best exercise you can get, but it doesn't feel like a chore when the views are that good. It’s also a surprisingly cheap hobby—once you invest in a solid pair of boots, the trails are basically free. Whenever life gets a little too loud or stressful, hitting a trail is the perfect way to clear my mind and reconnect with what matters. It’s great for the soul, and there’s no better feeling than reaching a summit and looking out at the world.</P> <h3 class="wavy-sub"><i>Click HOME and drop me a line...<i></h3>
+<body class="stars-bg">
+      <div class="main-content">
+          <h1><b>The Wild</b></h1>
+        <div class="image-gallery">
+                        <img src="Pics/Colorado.jpg" alt="Colorado" style="width:500px; margin:20px auto; display:block;">
+        </div>
+        <h2><i>The Southwest and Beyond</i></h2>
+        <p>Hiking has become such a huge part of my life, especially living in this part of the country. I’ve spent a lot of time exploring the rugged beauty of Texas State Parks, but I always love crossing borders to see what our neighbors have to offer. Whether it’s the high-altitude trails in Colorado, the red rocks of Arizona, or the hauntingly beautiful landscapes of New Mexico, every state has its own unique energy. There’s something special about getting away from the city and realizing how much diverse wilderness we actually have right in our backyard.</p>
+        <div class="main-content">
+        <div class="image-gallery">
+                        <img src="Pics/Tatanka.jpeg" alt="Tatanka" style="width:500px; margin:20px auto; display:block;">
+        </div>
+        <h2><i>The Ultimate Trail Bucket List</i></h2>
+        <p>While I’ve seen some incredible places, my hiking bucket list is still pretty long. I’m dying to get up to Wyoming and the Dakotas to experience that wide-open, northern frontier feel. I also want to head in the opposite direction and hit the East Coast mountains—the Appalachians have a completely different, lush vibe compared to the dry heat of the Southwest. For me, the goal is to see as many different types of terrain as possible; every new trail feels like a fresh chapter in a much bigger story.</p>
+         <div class="image-gallery">
+                        <img src="Pics/Caverns.jpeg" alt="Caverns" style="width:500px; margin:20px auto; display:block;">
+        </div>
+        <h2><i>Good for the Body and the Soul</i></h2>
+        <p>The best thing about hiking is that it’s just as good for your head as it is for your legs. It’s some of the best exercise you can get, but it doesn't feel like a chore when the views are that good. It’s also a surprisingly cheap hobby—once you invest in a solid pair of boots, the trails are basically free. Whenever life gets a little too loud or stressful, hitting a trail is the perfect way to clear my mind and reconnect with what matters. It’s great for the soul, and there’s no better feeling than reaching a summit and looking out at the world.</p>
+         <div class="image-gallery">
+                        <img src="Pics/NV.jpeg" alt="Nevada" style="width:500px; margin:20px auto; display:block;">
+        </div>
+        
+                <h3>My Top 5 Texas Parks</h3>
+                    <div class="favorite-parks-box">
+                        <h3 style="text-align:center; margin-top:0;">My Top 5 Favorite Parks</h3>
+                        <ol class="favorite-parks">
+                            <li>Hill Country Natural Area, Texas</li>
+                            <li>Palo Duro Canyon State Park, Texas</li>
+                            <li>Big Bend National Park, Texas</li>
+                            <li>Seminole Canyon State Park, Texas</li>
+                            <li>Caprock Canyon State Park, Texas</li>
+                        </ol>
+                    </div>
+        <h3 class="wavy-sub"><i>Know of a place I need to hike... drop me a line below!</i></h3>
+                <form class="contact-form" action="https://www.w3schools.com/action_page.php" method="post" style="max-width: 480px; margin: 0 auto 2em auto; background: rgba(0,0,0,0.45); padding: 18px 24px 18px 24px; border-radius: 14px; box-shadow: 0 2px 12px rgba(0,0,0,0.18);">
+                    <label for="whatsup" style="font-weight:bold;">What's up?</label><br>
+                    <select id="whatsup" name="whatsup" required style="margin-bottom: 1em; width: 100%;">
+                        <option value="">--Please choose an option--</option>
+                        <option value="park">Park Recommendation</option>
+                        <option value="shenanigans">General Shenanigans</option>
+                    </select><br>
+                    <label for="email" style="font-weight:bold;">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required style="width: 100%; margin-bottom: 1em; padding: 6px; border-radius: 4px; border: 1px solid #ccc;"><br>
+                    <label for="entry" style="font-weight:bold;">Your Message:</label><br>
+                    <textarea id="entry" name="entry" rows="4" required style="width: 100%; margin-bottom: 1em; padding: 6px; border-radius: 4px; border: 1px solid #ccc;"></textarea><br>
+                    <label style="font-weight:bold;">There can only be one...</label>
+                    <span style="margin-left: 8px;"></span>
+                    <input type="radio" id="coke" name="soda" value="Coke" required>
+                    <label for="coke">Coke</label>
+                    <input type="radio" id="pepsi" name="soda" value="Pepsi" style="margin-left: 18px;">
+                    <label for="pepsi">Pepsi</label><br>
+                    <button type="submit" style="margin-top: 1em; padding: 8px 18px; border-radius: 6px; background: #ffd700; color: #222; font-weight: bold; border: none; cursor: pointer;">Send it!</button>
+                </form>
+        </div>
 <nav>
-<a href="index.html">Sweet HOME Alabama</a> | <a href="music.html">More Cowbell</a> | <a href="np.html">The Wild</a></nav>
-</nav>
+    <h3 class="wavy-sub"><i>If not, click one...</i></h3>
+            <a href="index.html">Sweet HOME Alabama</a> | <a href="music.html">More Cowbell</a> | <a href="np.html">The Wild</a>
+        </nav>
+<p style="text-align:center; font-size:0.98em; color:#ffd700; margin:32px 0 12px 0; text-shadow:1px 1px 6px #000;">
+    <em>All images on this page are my own artwork and photography.</em>
+</p>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script>
+  const pepsiRadio = document.getElementById('pepsi');
+  if (pepsiRadio) {
+    pepsiRadio.addEventListener('change', function() {
+      if (this.checked) {
+        confetti({
+          particleCount: 120,
+          spread: 80,          spread: 80,
+          origin: { y: 0.6 }
+        });
+      }
+    });
+  }
+</script>   
